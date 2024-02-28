@@ -1,11 +1,9 @@
 # Install
-* put styles/*.xml and themes/*.creatortheme to your qtcreator install folder
+* put styles/\*.xml and themes/\*.creatortheme into your qtcreator install folder
+![install folder](screenshots/install_folder.png)
 
-## One Dark (Atom)
-Works best with One Dark Theme and an environment color like #313848
+## Screenshot of One Dark 
 ![One Dark](screenshots/one_dark.png)
 
-## Solarized Dark
-Comes included in QtCreator, but without a matching QtCreator theme (themes/solarized-dark.creatortheme).
-Recommended environment color for this theme: #0096c8 (or similar)
+## Screenshot of Solarized Dark
 ![Solarized Dark](screenshots/solarized_dark.png)
