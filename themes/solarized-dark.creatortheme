@@ -2,17 +2,15 @@
 ThemeName=Solarized Dark
 PreferredStyles=Fusion
 DefaultTextEditorColorScheme=solarized-dark.xml
+EnforceAccentColorOnMacOS=selectedBackground
 
 [Palette]
 shadowBackground=ff073642
 text=ffd0d0d0
 textDisabled=60a4a6a8
-toolBarItem=b6fbfdff
-toolBarItemDisabled=60a4a6a8
-fancyBarsNormalTextColor=ffd0d0d0
-fancyBarsBoldTextColor=b6fbfdff
+textHighlighted=ff005a6f
 hoverBackground=22ffffff
-selectedBackground=66000000
+selectedBackground=ff005a6f ;66000000
 normalBackground=ff00212B
 alternateBackground=ff353637
 error=ffdf4f4f
@@ -20,8 +18,12 @@ warning=ffecbc1c
 splitter=ff06080A
 textColorLink=ff007af4
 textColorLinkVisited=ffa57aff
-backgroundColorDisabled=ff444444
+backgroundColorDisabled=ff657b83 ;444444
 qmlDesignerButtonColor=ff4c4e50
+toolBarItem=b6fbfdff
+toolBarItemDisabled=60a4a6a8
+fancyBarsNormalTextColor=ffd0d0d0
+fancyBarsBoldTextColor=b6fbfdff
 
 [Colors]
 BackgroundColorAlternate=alternateBackground
@@ -34,7 +36,6 @@ BadgeLabelBackgroundColorChecked=ffe0e0e0
 BadgeLabelBackgroundColorUnchecked=ff808080
 BadgeLabelTextColorChecked=ff606060
 BadgeLabelTextColorUnchecked=ffffffff
-CanceledSearchTextColor=ff0000
 ComboBoxArrowColor=toolBarItem
 ComboBoxArrowColorDisabled=toolBarItemDisabled
 ComboBoxTextColor=fancyBarsNormalTextColor
@@ -52,6 +53,7 @@ DoubleTabWidget2ndTabInactiveTextColor=text
 EditorPlaceholderColor=normalBackground
 FancyToolBarSeparatorColor=toolBarItemDisabled
 FancyTabBarBackgroundColor=shadowBackground
+FancyTabBarSelectedBackgroundColor=88000000
 FancyTabWidgetDisabledSelectedTextColor=toolBarItemDisabled
 FancyTabWidgetDisabledUnselectedTextColor=toolBarItemDisabled
 FancyTabWidgetEnabledSelectedTextColor=fancyBarsBoldTextColor
@@ -121,7 +123,6 @@ ProgressBarBackgroundColor=a0606060
 SplitterColor=splitter
 TextColorDisabled=textDisabled
 TextColorError=ffff4040
-TextColorHighlight=ffff0000
 TextColorHighlightBackground=8a7f2c
 TextColorLink=textColorLink
 TextColorLinkVisited=textColorLinkVisited
@@ -183,7 +184,7 @@ Timeline_RangeColor=selectedBackground
 VcsBase_FileStatusUnknown_TextColor=text
 VcsBase_FileAdded_TextColor=ff00ff00
 VcsBase_FileModified_TextColor=ff8ee0ff
-VcsBase_FileDeleted_TextColor=fffff6c6c
+VcsBase_FileDeleted_TextColor=ffff6c6c
 VcsBase_FileRenamed_TextColor=ffffa500
 VcsBase_FileUnmerged_TextColor=ffff4040
 
@@ -218,6 +219,8 @@ PaletteWindowDisabled=backgroundColorDisabled
 PaletteWindowTextDisabled=textDisabled
 PaletteBaseDisabled=backgroundColorDisabled
 PaletteTextDisabled=textDisabled
+PaletteMid=ffa0a0a0
+PalettePlaceholderText=60a4a6a8 ;slateGrey
 
 QmlDesigner_BackgroundColor=qmlDesignerButtonColor
 QmlDesigner_HighlightColor=ff3f91c4
@@ -232,6 +235,27 @@ QmlDesigner_TabLight=text
 QmlDesigner_FormeditorBackgroundColor=qmlDesignerButtonColor
 QmlDesigner_AlternateBackgroundColor=qmlDesignerButtonColor
 QmlDesigner_ScrollBarHandleColor=ff595b5c
+
+TerminalForeground=d0d0d0
+TerminalBackground=normalBackground
+TerminalSelection=3fd1d1d1
+TerminalFindMatch=7fffff00
+TerminalAnsi0=151515
+TerminalAnsi1=ac4142
+TerminalAnsi2=7e8e50
+TerminalAnsi3=e5b567
+TerminalAnsi4=6c99bb
+TerminalAnsi5=a320ac
+TerminalAnsi6=7dd6cf
+TerminalAnsi7=d0d0d0
+TerminalAnsi8=505050
+TerminalAnsi9=d05e5b
+TerminalAnsi10=a7b773
+TerminalAnsi11=ffd184
+TerminalAnsi12=94c8ea
+TerminalAnsi13=f257fb
+TerminalAnsi14=a1fcf7
+TerminalAnsi15=ffffff
 
 [Flags]
 ComboBoxDrawTextShadow=false
